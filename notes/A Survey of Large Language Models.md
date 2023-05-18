@@ -1,17 +1,16 @@
 # A Survey of Large Language Models
 
 
-
 - [A Survey of Large Language Models](#a-survey-of-large-language-models)
   - [1. INTRODUCTION](#1-introduction)
   - [2. OVERVIEW](#2-overview)
-    - [2.1 LLMs的背景](#21-llms的背景)
-      - [比例定律（Scaling Laws）](#比例定律scaling-laws)
+    - [2.1 LLM的背景](#21-llm的背景)
+      - [缩放定律（Scaling Laws）](#缩放定律scaling-laws)
       - [涌现能力（Emergent Abilities）](#涌现能力emergent-abilities)
       - [关键技术（Key Techniques）](#关键技术key-techniques)
     - [2.2 GPT系列模型的技术演进](#22-gpt系列模型的技术演进)
       - [早期探索](#早期探索)
-      - [容量飞跃](#容量飞跃)
+      - [能力飞跃](#能力飞跃)
       - [能力提升](#能力提升)
       - [语言模型里程碑](#语言模型里程碑)
   - [3. LLM资源](#3-llm资源)
@@ -66,7 +65,7 @@
   - [6. 应用](#6-应用)
     - [6.1 情境学习（In-Context Learning）](#61-情境学习in-context-learning)
       - [6.1.1 提示词公式（Prompting Formulation）](#611-提示词公式prompting-formulation)
-      - [6.1.2 示范设计（Demonstration Design）](#612-示范设计demonstration-design)
+      - [6.1.2 示例设计（Demonstration Design）](#612-示例设计demonstration-design)
       - [6.1.3 底层机制](#613-底层机制)
     - [6.2 思维链（Chain-of-Thought）](#62-思维链chain-of-thought)
       - [6.2.1 使用CoT进行情境学习](#621-使用cot进行情境学习)
@@ -90,6 +89,8 @@
       - [模型应用](#模型应用)
       - [安全性和对齐](#安全性和对齐)
       - [应用和生态系统](#应用和生态系统)
+
+
 
 
 这篇综述发表于2023年4月28日，作者主要来自中国人民大学。

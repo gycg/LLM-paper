@@ -11,5 +11,9 @@
 * [self-instruct](https://arxiv.org/pdf/2212.10560.pdf)
 ## 轻量级训练大语言模型
 * [LoRA](https://arxiv.org/abs/2106.09685)
+## 并行训练技术
+* [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/pdf/1910.02054.pdf)
+* [GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism](https://arxiv.org/pdf/1811.06965.pdf)
+* [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelis](https://arxiv.org/pdf/1909.08053.pdf)
 ## 其他
 * [Claude](https://arxiv.org/pdf/2212.08073.pdf)

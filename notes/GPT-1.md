@@ -38,7 +38,7 @@ $$L1(U)=\sum_{i} \log P(u_{i}|u_{i−k},...,u_{i−1}; \theta) \tag{1}$$
 其中，$k$表示上下文窗口的长度，条件概率$P$通过具有参数$\theta$的神经网络进行建模。这些参数使用随机梯度下降进行训练。
 在我们的实验中，我们使用了一个多层的Transformer解码器（decoder）作为语言模型，它是Transformer的一种变体。该模型对输入上下文标记应用了多头自注意操作，然后经过逐位置的前馈层，生成了目标标记上的输出分布。
 $$h_0=UW_e+W_p$$
-$$h_l=\text{transformer\_block}(h_{l-1} \forall i \in [1, n]) \tag{2}$$
+$$h_l=transformer\_block (h_{l-1} \forall i \in [1, n]) \tag{2}$$
 $$P(u)=\text{softmax}(h_nW_e^T)$$
 其中$U=(u_{-k}, ..., u_{-1})$是token的上下文向量，$n$是层数，$W_e$是token embedding矩阵，$W_p$是position embedding矩阵。
 

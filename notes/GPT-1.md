@@ -1,5 +1,22 @@
 # Improving Language Understanding by Generative Pre-Training
 
+- [Improving Language Understanding by Generative Pre-Training](#improving-language-understanding-by-generative-pre-training)
+  - [摘要](#摘要)
+  - [1. 简介](#1-简介)
+  - [2. 相关工作](#2-相关工作)
+      - [自然语言处理中的半监督学习](#自然语言处理中的半监督学习)
+      - [无监督预训练](#无监督预训练)
+      - [辅助训练目标](#辅助训练目标)
+  - [3. 框架](#3-框架)
+    - [3.1 无监督预训练](#31-无监督预训练)
+    - [3.2 有监督微调](#32-有监督微调)
+    - [3.3 任务特定的输入转换](#33-任务特定的输入转换)
+  - [4. 实验](#4-实验)
+    - [4.1 配置](#41-配置)
+    - [4.2 有监督微调](#42-有监督微调)
+  - [5. 分析](#5-分析)
+  - [6. 结论](#6-结论)
+
 
 这篇论文是OpenAI在2018年发布的，介绍初版GPT模型。虽然当时带火预训练+微调的是bert模型，但GPT比bert发布时间要早一些。
 ## 摘要

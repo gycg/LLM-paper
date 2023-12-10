@@ -5,7 +5,7 @@
 * [A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)[[notes](notes/A_Survey_of_Large_Language_Models.md)]
 
 ### 基础模型
-* [Transformers](https://arxiv.org/pdf/1706.03762.pdf)[[blog:illustrated-transformer](https://jalammar.github.io/illustrated-transformer/),[Arxiv Dive](https://blog.oxen.ai/arxiv-dives-attention-is-all-you-need/)]
+* [Transformers](https://arxiv.org/pdf/1706.03762.pdf)[[blog:illustrated-transformer](https://jalammar.github.io/illustrated-transformer/),[Arxiv Dive](https://blog.oxen.ai/arxiv-dives-attention-is-all-you-need/), [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)][[notes](notes/Transformer_notes.md)]
 * [GPT-1](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)[[notes](notes/GPT-1.md)]
 * [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)[[Arxiv Dive](https://blog.oxen.ai/arxiv-dives-language-models-are-unsupervised-multitask-learners-gpt-2/)]
 * [GPT-3](https://arxiv.org/pdf/2005.14165.pdf)
